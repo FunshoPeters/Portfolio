@@ -42,7 +42,9 @@ The business request for this data analyst project is for an Executive Sales Rep
 
 ### The Data Source
 
-The dataset is taken from the AdventureWorks sample dataset on the Microsoft website. I chose the Data Warehouse version which has been structured for analysis purpose.
+The dataset is taken from the AdventureWorks sample dataset on the Microsoft website. I chose the Data Warehouse version which has been structured for analysis purpose. 
+
+The data can be found [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms).
 
 ### Data Cleansing & Transformation with SQL
 
