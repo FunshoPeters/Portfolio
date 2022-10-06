@@ -35,7 +35,24 @@ The business request for this data analyst project is for an Executive Sales Rep
 
 | Role  | Request | Purpose | Acceptance Criteria |
 | ------------- | ------------- | ------------ | ------------- |
-| Content Cell  | Content Cell  | Content Cell | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell | Content Cell  |
+| Sales Manager  | To get a dashboard overview of internet sales  | Can follow better which customers and products sells the best | A Power BI dashboard which updates data once a day  |
+| Sales Representative  | A detailed overview of Internet Sales per Customers  | Can follow up my customers that buys the most and who we can sell more to | A Power BI dashboard which allows me to filter data for each customer  |
+| Sales Representative  | A detailed overview of Internet Sales per Products  | Can follow up my Products that sells the most | A Power BI dashboard which allows me to filter data for each Product  |
+| Sales Manager  | A dashboard overview of internet sales  | Follow sales over time against budget | A Power Bi dashboard with graphs and KPIs comparing against budget.  |
+
+### The Data Source
+
+The dataset is taken from the AdventureWorks sample dataset on the Microsoft website. I chose the Data Warehouse version which has been structured for analysis purpose.
+
+### Data Cleansing & Transformation with SQL
+
+I setup a practice environment that consisted of SQL Server. Next,I then went through the data to understand tables and columns I would need for my report, I then cleaned them and transformed for analysis purpose.
+ 
+***How I cleaned and Transformed:***
+- Used the **AS** Statement to rename the coumns.
+- Selected only the columns that were relevant to the request.
+- Used the **LET** statment to shorten the months (i.e January became 'Jan').
+- Used a **CASE** Statemnt for the gender colums, changing M and F to Male and Femmale.
+- Used the **LEFT JOIN** statement to a cloumn for Customer City from another table.
+- Used the **ORDER BY** Statement to order.
+
