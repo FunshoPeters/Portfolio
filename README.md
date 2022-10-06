@@ -77,6 +77,7 @@ WHERE
   CalendarYear >= 2019
 ```
 
+
 #### DIM_Customers:
 
 ```sql
@@ -95,6 +96,7 @@ FROM
 ORDER BY 
   CustomerKey ASC -- Ordered List by CustomerKey
 ```
+
 
 #### DIM_Products:
 
@@ -120,6 +122,7 @@ order by
   p.ProductKey asc
 ```
 
+
 #### FACT_InternetSales:
 
 ```sql
@@ -139,3 +142,16 @@ WHERE
 ORDER BY
   OrderDateKey ASC
 ```
+
+
+### Data Model
+
+The data model after the cleaned and prepared tables were read into Power BI is shown in the screenshot below.
+
+![alt text](https://github.com/FunshoPeters/Portfolio/blob/main/images/20221005-144711253.png "Data Model")
+
+### Sales Management Dashboard in Power Bi
+
+The finished sales management dashboard is a one page dashboard and overview, there are two other table for Customers Details and Product Details. All three dashboards provide an interactive overview that lets stackholders filter data for valuable business information. The ustomers Details and Product Details show combining tables for necessary details and visualizations to show sales over time, per customers and per products.
+
+![alt text](https://github.com/FunshoPeters/Portfolio/blob/main/images/20221005-144711253.png "Data Model")
